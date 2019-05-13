@@ -1,4 +1,4 @@
-#Fastq files can be downloaded here:
+# Fastq files can be downloaded here:
 upon publication
 
 # damC analysis (directory damC)
