@@ -1,3 +1,6 @@
+#Fastq files can be downloaded here:
+upon publication
+
 # damC analysis (directory damC)
 1) Alignment using QuasR: 01_alignment.R
 2) Quanfication of methylated GATC sites: 02_quantification.R
