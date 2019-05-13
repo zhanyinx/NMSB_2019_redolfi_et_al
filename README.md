@@ -26,4 +26,4 @@ upon publication
 3) Combining GATC on the plus and the minus strand: ./03_combine_strands_76mers_rawdata_4C.sh GATC_quantification.txt
 4) Extract the sample you are interested in with the genomic coordinates from point 3
 5) Filtering the two closest GATC sites to the intergration sites: ./04_filtering_2maximum.sh 4C_input SUBCLONE3_27kb_integrationsites.dat
-6) Running average using the script: ./04_running_average.sh 21 input output chr
+6) Running average using the script: ./05_running_average.sh 21 input output chr
