@@ -20,3 +20,10 @@ upon publication
 4) Extract useful reads (given the name list) from fastqfiles: 04_extract_useful_reads.sh
 5) Align reads to genome and quantify using csaw: 05_mapping2genome.R
 
+# 4C analysis (directory 4C)
+1) Alignment using QuasR: 01_alignment.R
+2) Quanfication of methylated GATC sites: 02_quantification.R
+3) Combining GATC on the plus and the minus strand: ./03_combine_strands_76mers_rawdata_4C.sh GATC_quantification.txt
+4) Extract the sample you are interested in with the genomic coordinates from point 3
+5) Filtering the two closest GATC sites to the intergration sites: ./04_filtering_2maximum.sh 4C_input SUBCLONE3_27kb_integrationsites.dat
+6) Running average using the script: ./04_running_average.sh 21 input output chr
