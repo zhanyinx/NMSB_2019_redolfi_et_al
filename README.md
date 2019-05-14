@@ -16,7 +16,7 @@ upon publication
 # Capture analysis (Directory Capture)
 1) Trim too long reads based on quality (quality of reads can be check using fastqc): 01_trim_fastq.sh -i input -l 50
 2) Map reads of each sample to the ectopic genome treat paired-end as single-end: 02_mapping2cassette.R
-3) Combine paired-end information to extract valid reads, i.e. those where one end map to the genome and the other map to the ectopic genome: 03_extracting_useful_reads_name.R
+3) Combine paired-end information to extract valid reads, i.e. those where only one end map to the ectopic genome: 03_extracting_useful_reads_name.R
 4) Extract useful reads (given the name list) from fastqfiles: 04_extract_useful_reads.sh
 5) Align reads to genome and quantify using csaw: 05_mapping2genome.R
 
