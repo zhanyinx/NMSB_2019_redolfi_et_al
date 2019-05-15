@@ -1,5 +1,5 @@
 # Fastq files can be downloaded here:
-upon publication
+Geo: GSE128017
 
 # damC analysis (directory damC)
 1) Alignment using QuasR: 01_alignment.R
