@@ -1,5 +1,5 @@
 # Fastq files can be downloaded here:
-[GSE128017](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE128017){:target="_blank"}
+[GSE128017](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE128017)
 
 
 # damC analysis (directory damC)
